@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Obras & Acabados Popayán</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ddd;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .service, .portfolio img {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .portfolio img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .contact-form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 28px;
+      line-height: 60px;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Obras & Acabados Popayán</h1>
+    <nav>
+      <a href="#quienes-somos">Quiénes somos</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="quienes-somos">
+    <h2>Quiénes Somos</h2>
+    <p>Somos un equipo de profesionales en construcción y acabados con sede en Popayán, Colombia.
+    Nos especializamos en la ejecución de proyectos residenciales, comerciales e institucionales, ofreciendo soluciones completas de obra gris, obra blanca, remodelaciones y terminados de alta calidad.</p>
+    <p>Nuestra misión es facilitarle a cada cliente un proceso ágil, transparente y confiable, entregando trabajos bien hechos que cumplen con los estándares técnicos y las expectativas estéticas. Nos caracteriza el compromiso, el respeto por los tiempos acordados y la capacidad de adaptarnos a proyectos de diferentes tamaños.</p>
+    <ul>
+      <li>✅ Asesoría personalizada y cercana en cada etapa del proyecto.</li>
+      <li>✅ Experiencia comprobada en obras civiles, drywall, enchapes, pintura, instalaciones y acabados.</li>
+      <li>✅ Cotizaciones claras y detalladas, con precios competitivos y tiempos de entrega realistas.</li>
+      <li>✅ Equipo calificado que combina técnica, buen trato y responsabilidad.</li>
+    </ul>
+    <p><strong>Nuestra visión:</strong> Ser la opción preferida en Popayán y el Cauca por la calidad, el cumplimiento y el acompañamiento que brindamos en cada trabajo.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="service">Pintura de interiores y exteriores</div>
+      <div class="service">Estuco y acabados</div>
+      <div class="service">Mantenimiento general</div>
+      <div class="service">Impermeabilización</div>
+      <div class="service">Remodelaciones completas</div>
+    </div>
+  </section>
+
+  <section id="portafolio">
+    <h2>Portafolio</h2>
+    <div class="portfolio">
+      <!-- Aquí puedes reemplazar src por tus fotos -->
+      <img src="https://via.placeholder.com/400x300?text=Proyecto+1" alt="Proyecto 1">
+      <img src="https://via.placeholder.com/400x300?text=Proyecto+2" alt="Proyecto 2">
+      <img src="https://via.placeholder.com/400x300?text=Proyecto+3" alt="Proyecto 3">
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="contact-form">
+      <form action="mailto:styvenbhm@gmail.com" method="post" enctype="text/plain">
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" required><br><br>
+        <label>Correo electrónico:</label><br>
+        <input type="email" name="email" required><br><br>
+        <label>Mensaje:</label><br>
+        <textarea name="mensaje" rows="4" required></textarea><br><br>
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    📍 Popayán, Cauca, Colombia<br>
+    📞 WhatsApp: 3105925601<br>
+    ✉️ Email: styvenbhm@gmail.com
+  </footer>
+
+  <a class="whatsapp-btn" href="https://wa.me/573105925601" target="_blank">💬</a>
+</body>
+</html>
